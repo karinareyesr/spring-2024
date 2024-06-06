@@ -1,0 +1,76 @@
+/* structural css */
+.oly-wrap,
+.oly-row {
+    display: flex;
+}
+.oly-column {
+    flex:1;
+}
+
+.oly-context {
+    flex:2;
+}
+aside, .oly-column {
+    flex:3;
+}
+
+/* css styles */
+
+body {
+    background-image:url(../images/oly5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Gelogica', sans-serif;
+}
+h1 {
+    color: white;
+    font-size: 2em;
+    font-family: "Alfa Slab One", serif;
+}
+h2 {
+    color: white;
+    font-size: 1.2em;
+    font-family: "Alfa Slab One", serif;
+}
+h3 {
+    font-family: "Alfa Slab One", serif;
+}
+
+.oly-container {
+    width:80%;
+    margin: auto;
+    background-color:rbga(255,255,255,.8);
+}
+
+header ,
+.oly-content, 
+.oly-sidebar {
+    padding: 15px;
+}
+
+header {
+    background-color: rgba (62,112,65,.9);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: darkgreen;
+    padding: 10px 0;
+    border-right: solid 1px;
+    font-family: "Alfa Slab One", serif;
+}
+nav a:hover {
+    background-color:forestgreen;
+}
+nav a:first-child {
+    border-left: solid 1px;
+}
+@media (max-width: 600px) {
+    .oly-row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+}
