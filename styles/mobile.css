@@ -1,0 +1,37 @@
+@media screen and(max-width: 768px) {
+    main, footer, header, nav.island {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+}
+    main, article, main ul {
+        width: 90%;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.3em; 
+    }
+
+    /* below is the media query for fluid dimensions to convert the pur-g to a flex flow columns */
+    .pure-g {
+        flex-flow: column;
+    }
+    body.fluid {
+        padding: 10px;
+    }
+    body.fluid main, .zoe .pure-u-1-3, .pure-u-2-3, .pure-u-1-5  {
+        width:100%;
+    }
+    .hero p {
+        width: 95vw; 
+    } 
+    /* stew recipe and history mobile styles */
+     .stew-content, .stew-content img, body.history img {
+        width: 95%;
+    }
+
+
