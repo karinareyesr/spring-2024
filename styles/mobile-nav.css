@@ -16,8 +16,8 @@
 
 .navbar-links ul {
     display: flex;
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
 }
 
 .navbar-links li {
@@ -26,7 +26,7 @@
 .navbar-links li a {
     display: inline-block;
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 16px;
 }
 .navbar-links li:hover {
@@ -48,7 +48,7 @@
 .toggle-button .bar {
     height: 3px;
     width: 100px;
-    background-color: black;
+    background-color: white;
     border-radius: 10px;
 
 }
