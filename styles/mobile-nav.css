@@ -1,0 +1,84 @@
+.navbar {
+    display: flex;
+    position:relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: black;
+}
+.page-title p{
+    font: size 22px;
+    margin: 8px;
+}
+.navbar-links {
+    height:100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+.navbar-links li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 16px;
+}
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+/* toggle button styles */
+
+.toggle-button {
+    position: absolute;
+    top: 10 px;
+    right: 16px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar {
+    height: 3px;
+    width: 100px;
+    background-color: black;
+    border-radius: 10px;
+
+}
+/* hamburger menu */
+@media screen and (mc-width:800px) {
+    .navbar {
+        display: flex;
+    }
+    .toggle-button {
+        display: flex;
+
+    }
+    .navbar-links{
+        display: none;
+        width: 100%;
+    }
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+.navbar-links ul li a {
+    padding: 8px 16px;
+}
+
+.navabar-links.active {
+    display: flex;
+}
+nav a {
+    border: 0px;
+}
+
+
+}

@@ -6,8 +6,32 @@
     <title>Fluid Dimensions</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/fluid.css" type="text/css">
+    <link rel="stylesheet" href="../styles/mobile.css" type="text/css">
+    <link href="../styles/mobile-nav.css"rel="stylesheet">
 </head>
-<body>
+<body class="fluid">
+    <nav class="navbar">
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#"> Home</a></li>
+                <li><a href="pages/history2.html"> History</a></li>
+                <li><a href="pages/stew-recipe.html">Stew Recipe</a></li>
+                <li><a href="pages/theater2.html"> Thearter Bill</a></li>
+                <li><a href="pages/cascade.html"> Cascade</a></li>
+                <li><a href="pages/fluid.html"> Fluid</a></li>
+                <li><a href="pages/disco.html"> Media Queries</a></li>
+                <li><a href="pages/opt-images.html"> Optimizing Images </a></li>
+                <li><a href="pages/orcas.html"> Orcas Island</a></li>
+                <li><a href="pages/lopez.html">Lopez Island</a></li>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <header>
         <nav> <div class="pure-g">
             <a class="pure-u-1-7" href="/index.html">Home</a>
@@ -53,7 +77,7 @@
             <section class= "pure-u-1-5 box">
                 <h3>BOX SIZING</h3>
                 <p>The box-sizing CSS property is used to alter the default CSS box model used to calculate widths and heights of elements. It is possible to use this property to emulate the behavior of browsers that do not correctly support the CSS box model specification.
-                <br>Values:</br>
+                <br>Values:</br>                                               
                 <ul>
                 <li>content-box:
                 This is the default style as specified by the CSS standard. The width and height properties are measured including only the content, but not the padding, border or margin. Note: Padding, border & margin will be outside of the box e.g. IF .box {width: 350px}; THEN you apply {border: 10px solid black;} RESULT {rendered in the browser} .box {width: 370px;}</li>
