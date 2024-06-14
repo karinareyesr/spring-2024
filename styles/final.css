@@ -1,11 +1,42 @@
-header {
-    background-color: blueviolet;
+:root {
+    ---cyan: #AEDDDA;
+   ---grey: #B1C9C7;
+    ---dark: #2B3837;
+    font-family: "Roboto", sans-serif;
+    color:var (--dark);
 }
-main {
-    background-color:cadetblue;
-}
-main section {
-    background-color:darkslategrey;
-    border:solid white 8px;
+
+body, header, main, footer, section, article, aside {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
+    font-size:16px;
 }
+
+main p {
+    font-size:0.8em
+}
+
+main aside div {
+    padding:5px;
+    box-sizing:border-box;
+}
+
+main section {
+    border:solid white 1px;
+    text-align:center;
+    padding: 20px;
+}
+
+.side {
+    height:10px;
+    padding-right:100px;
+}
+.butterfly {
+    height:250px;
+    padding-top:100px;
+}
+.footer {
+    font-size:12px;
+}
+
