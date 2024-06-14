@@ -1,0 +1,11 @@
+header {
+    background-color: blueviolet;
+}
+main {
+    background-color:cadetblue;
+}
+main section {
+    background-color:darkslategrey;
+    border:solid white 8px;
+    box-sizing: border-box;
+}
